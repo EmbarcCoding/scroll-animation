@@ -19,6 +19,12 @@ section {
     transition: all 1s;
 }
 
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
 .show {
     opacity: 1;
 }
